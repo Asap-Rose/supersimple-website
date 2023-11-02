@@ -1,0 +1,133 @@
+@font-face {
+	font-family: Bubble;
+	src: url(../Fonts/Agbalumo-Regular.ttf);
+}
+
+body{
+	/*While doing research I noticed the carribean island restaurants always had a theme of fun or relaxation.So I 
+	chose a background that was more on the relaxing side*/
+	background-color:#f9f1f0;
+}
+h4{
+	/*I added a Custom bubble font because for me at least, The carribean islands represent a time of relaxation 
+	  or fun. So I added a fun font that could represent that.
+	*/
+	
+	/*Went to fonts.google.com for my custom fonts also*/
+	/*I used sans-serif as an alternative if bubble does not connect
+	properly or if the browser does not support bubble*/ 
+	font-family: Agbalumo,sans-serif;
+	color:#FF7F50;
+	font-size:24	
+}
+h1{
+	
+	font-family: Agbalumo,sans-serif;
+	color:#FF7F50;
+	font-size:24
+}
+h2{
+	font-family: Agbalumo,sans-serif;
+	color:#000080;
+}
+h3{
+	font-family: Agbalumo,sans-serif;
+	color:#FF7F50;
+}
+
+p{
+	/*used the same fonts in the header for all other text. I feel like 
+	  The font meshes with the background-color to make a calm theme*/ 
+}
+
+#menuTable{
+<table border="1" cellspacing="10" cellpadding="10">
+	
+}
+
+#home{
+		
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 50px;
+	top:0px;
+	color:#FF7F50;
+	
+}
+#menu{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 175px;
+	top:0px;
+	color:#FF7F50;
+}
+#about_us{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	color:#FF7F50;
+}
+#contact_us{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	color:#FF7F50;
+	
+}
+#Locations{
+	width: 200px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	color:#FF7F50;
+}
+
+#MiddleBackground{
+	background-color:#f9f1f0;
+	text-align:left;	
+	padding: 25px;
+}
+
+#menuSelections{
+	
+	text-align:center;
+}
+.center{
+	text-align:center;
+	list-style-position: inside;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+/* This is used for the menu tables*/
+.column{
+	float: left;
+	width: 50%;
+	padding: 5px;
+	
+}
+
+/*Used for the front page*/
+table.center{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+
+#Locations{
+	color:#FF7F50;
+	right: 100px;
+	top:0px;
+}
+
